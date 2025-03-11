@@ -12,6 +12,9 @@ router.post('/register', register);
 router.post('/login', checkLoggedIn, login);
    
 
+   
+
+
 
 // Route for user logout
 router.post('/logout', logout);
